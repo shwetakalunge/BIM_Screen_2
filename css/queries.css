@@ -124,5 +124,8 @@
     font-size: 13px;
     width: 120px;
  
+}.login-box {
+  min-height:70vh;
+    margin: 10px
 }
     }
