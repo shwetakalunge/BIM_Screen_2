@@ -54,11 +54,12 @@ h1 {
     font-size: 36px;
     line-height: 57px;
     color: #404040;
-    margin-left: 25px
+   padding: 20px
 }
 
 ul {
-    margin-left: 30px;
+    margin-left: 50px;
+    padding: 20px;
 }
 
 li {
@@ -82,8 +83,6 @@ li:active {
 }
 
 .logo_class {
-    width: 100px;
-    height: 113px;
 }
 
 .right {

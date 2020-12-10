@@ -8,6 +8,7 @@
     .logo_class {
         width: 100px;
         height: 100px;
+        padding: 10px;
     }
 }
 
@@ -18,3 +19,110 @@
         left: 40%;
     }
 }
+
+/*SMALL TABLETS TO BIG TABLETS-IPAD IN LANDSCAPE PHONES(768 TO 1023PX)*/
+@media only screen and (max-width:1023px) {
+    .logo_class {
+        padding: 10px
+    }
+
+    ul {
+        margin-left: 30px;
+        padding: 20px
+    }
+
+    li {
+        padding: 15px;
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 47px;
+        padding: 10px
+    }
+
+}
+
+/*SMALL TABLETS TO BIG TABLETS-IPAD IN LANDSCAPE PHONES(768 TO 1023PX)*/
+@media only screen and (max-width:767px) {
+    .logo_class {
+        padding: 10px
+    }
+
+    ul {
+        margin-left: 00px;
+        padding: 10px
+    }
+
+    li {
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 47px;
+        padding: 10px
+    }
+    
+    /*SMALL-PHONES FROM LESS or EQUAL TO 480 PIXEL*/
+@media only screen and (max-width:480px) {
+   .logo_class {
+        width: 80px;
+        padding: 25px
+    }
+
+    ul {
+        margin-left: 00px;
+        padding: 10px
+    }
+
+    li {
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 47px;
+        padding: 10px
+    }
+    
+}
+@media only screen and (max-width:320px) {
+    .logo_class {
+        width: 80px;
+        padding: 25px
+    }
+
+    ul {
+        margin-left: 00px;
+        padding: 00px
+    }
+
+    li {
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+        line-height: 17px;
+        padding: 10px
+    }
+      .btn2 {
+        bottom: 20%;
+        left: 30%;
+    }
+    
+    .P_UploadRequirements {
+           font-size: 10px;
+    }
+.btn1 {
+    padding: 5px;
+    font-size: 13px;
+    width: 120px;
+ 
+}
+    }
