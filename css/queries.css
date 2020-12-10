@@ -65,67 +65,74 @@
         line-height: 47px;
         padding: 10px
     }
-    
+
     /*SMALL-PHONES FROM LESS or EQUAL TO 480 PIXEL*/
-@media only screen and (max-width:480px) {
-   .logo_class {
-        width: 80px;
-        padding: 25px
+    @media only screen and (max-width:480px) {
+        .logo_class {
+            width: 80px;
+            padding: 25px
+        }
+
+        ul {
+            margin-left: 00px;
+            padding: 10px
+        }
+
+        li {
+            padding: 10px;
+            font-size: 10px;
+        }
+
+        h1 {
+            font-size: 30px;
+            line-height: 47px;
+            padding: 10px
+        }
+        .login-box {
+            margin: 10px
+        }
+
     }
 
-    ul {
-        margin-left: 00px;
-        padding: 10px
-    }
+    @media only screen and (max-width:320px) {
+        .logo_class {
+            width: 80px;
+            padding: 25px
+        }
 
-    li {
-        padding: 10px;
-        font-size: 10px;
-    }
+        ul {
+            margin-left: 00px;
+            padding: 00px
+        }
 
-    h1 {
-        font-size: 30px;
-        line-height: 47px;
-        padding: 10px
-    }
-    
-}
-@media only screen and (max-width:320px) {
-    .logo_class {
-        width: 80px;
-        padding: 25px
-    }
+        li {
+            padding: 10px;
+            font-size: 10px;
+        }
 
-    ul {
-        margin-left: 00px;
-        padding: 00px
-    }
+        h1 {
+            font-size: 20px;
+            line-height: 17px;
+            padding: 10px
+        }
 
-    li {
-        padding: 10px;
-        font-size: 10px;
-    }
+        .btn2 {
+            bottom: 20%;
+            left: 30%;
+        }
 
-    h1 {
-        font-size: 20px;
-        line-height: 17px;
-        padding: 10px
-    }
-      .btn2 {
-        bottom: 20%;
-        left: 30%;
-    }
-    
-    .P_UploadRequirements {
-           font-size: 10px;
-    }
-.btn1 {
-    padding: 5px;
-    font-size: 13px;
-    width: 120px;
- 
-}.login-box {
-  min-height:70vh;
-    margin: 10px
-}
+        .P_UploadRequirements {
+            font-size: 10px;
+        }
+
+        .btn1 {
+            padding: 5px;
+            font-size: 13px;
+            width: 120px;
+
+        }
+
+        .login-box {
+            margin: 10px
+        }
     }
