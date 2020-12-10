@@ -4,6 +4,11 @@
         bottom: 10%;
         left: 30%;
     }
+    
+.logo_class {
+    width: 100px;
+    height: 100px;
+}
 }
     @media only screen and (max-width:480px) {
          .btn2 {
